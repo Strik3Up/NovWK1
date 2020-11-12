@@ -16,7 +16,7 @@ def is_anagram(s1, s2):
       loastr = loast.strip("-")
       loastri = loastr.strip(".")
       loastrin = loastri.strip(" ")
-	  x = x + 1
+    x = x + 1
   bl = sorted(list("".join(lobstrin.split())))
   al = sorted(list("".join(loastrin.split())))
   if bl == al:
