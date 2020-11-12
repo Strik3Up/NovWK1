@@ -2,6 +2,7 @@
 # GitHub ID: Strik3Up
 def is_anagram(s1, s2):
   x = 0
+  c = 0
   while x < len(s1 + s2):
     for c in b:
 	    lob = b.lower()
